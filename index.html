@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Work</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+
+    <div class="wrapper">
+        <div class="logo">
+            <div class="container">
+                <p>Farid's Movie <span>Search</span></p>
+            </div>
+        </div>
+
+        <div class="search-container">
+            <div class="search-element">
+                <h3>Search Movie:</h3>
+                <input type="text" placeholder="Search Movie Title" id="movie-search-box" class="form-control">
+                <div class="search-list" id="search-list">
+                    <div class="search-list-item">
+                        <div class="search-list-thum">
+                           <img src="avengers.jpeg" alt=""> 
+                        </div>
+                        <div class="search-item-info">
+                            <h3>Avengers End Game </h3>
+                            <p>2021</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="result-container">
+                <div class="result-grid" id="result-grid"> 
+                    <div class="movie-poster">
+                        <img src="avengers.jpeg" alt="">
+
+                    </div>
+                    <div class="movie-info">
+                        <h3 class="movie-title"> Avenger End Game</h3>
+                        <ul class="movie-misc-info">
+                            <li class="year">Year: 2021</li>
+                            <li class="rated">Rated: 8.5 IMDb</li>
+                            <li class="released">Released: 05 april 2021</li>
+                        </ul>
+                        <p class="genre"> <b>Genre:</b> Action, Comedy, Romance</p>
+                        <p class="writer"><b>Writer:</b> Farid Huseynli, Samir Babayev</p>
+                        <p class="actors"><b>Actors:</b> Fuad Huseynli, Cethun Genceli, Rashad Nagi, qulubulla Esedull</p>
+                        <p class="plaot"><b>Plot:</b> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum officiis hic, quibusdam totam saepe fugiat quia neque veritatis ad at, quis molestiae dicta vero, odio aliquam delectus deserunt doloribus eligendi.</p>
+                        <p class="language"><b>Language:</b>english</p>
+                        <p class="awards"><b><i class="fas fa-award"></i></b> Nominated for 1 Oscar</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
